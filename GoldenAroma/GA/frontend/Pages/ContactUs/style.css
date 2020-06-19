@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  }
+
+.navbar a, 
+.login,
+.basket,
+.overlay__content a {
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar a.option:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+}
+
+.navbar a.active:hover {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.login:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding: 0px 20px;
+}
+
+.line1 {
+    position: absolute;
+    width: 1450px;
+    left: 65px;
+
+    border: 1px solid #000000;
+}
+
+.logo {
+    height: 70px;
+    width: 300px;
+}
+
+.basket {
+    height: 30px;
+    width: 150px;
+}
