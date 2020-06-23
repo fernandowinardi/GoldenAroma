@@ -13,7 +13,7 @@
             <li><a href="../ShopTea/shoptea.php" class="option">Shop Tea</a></li>
             <li><a href="../ShopCoffee/shopcoffee.php" class="option">Shop Coffee</a></li>
             <li><a href="../About/about.php" class="option>About</a></li>
-            <li><a href=" ../ContactUs/contactus.html" class="option">Contact us</a></li>
+            <li><a href="../ContactUs/contactus.html" class="option">Contact us</a></li>
         </ul>
     </nav>
     <a href="../SignIn/signin.php" class="login">Sign in/Sign up</a>

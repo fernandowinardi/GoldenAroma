@@ -33,11 +33,11 @@
             <p class="signInNormal">Sign in with Email</p>
             <div class="inputContainer">
                 <input type="text" style="text-indent: 80px;" class="emailText" placeholder="Example@email.com" name="email">
-                <img src="mail.png" class="mailImg">
+                <img src="../../Images/mail.png" class="mailImg">
             </div>
             <div class="inputContainer">
                 <input type="password" style="text-indent: 80px;" class="passwordText" placeholder="password..." name="pwd">
-                <img src="lock.png" class="pwdImg">
+                <img src="../../Images/lock.png" class="pwdImg">
             </div>
 
             <a class="forgetPw">Forget Password?</a>
@@ -49,6 +49,6 @@
 </html>
 <script>
     document.getElementById("signUp").onclick = function () {
-        location.href = "signup.php"
+        location.href = "../SignUp/signup.php"
     }
 </script>
