@@ -55,6 +55,7 @@ if(isset($_POST['signUpButton'])) {
         $_SESSION['success'] = "You are logged in";
         //if succeed, move to welcome.php
         header('location: ../Welcome/welcome.php');
+        unset($_SESSION['logged']);
         $_SESSION['logged'] = true;
     }
 }
@@ -79,6 +80,7 @@ if(isset($_POST['signInButton'])) {
             $_SESSION['firstname'] = $row['firstname'];
             $_SESSION['success'] = "Successfully logged in";
             header('location: ../Welcome/welcome.php');
+            unset($_SESSION['logged']);
             $_SESSION['logged'] = true;
         } else {
             //else incorrect email and password combination
