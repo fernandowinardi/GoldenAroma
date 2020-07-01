@@ -2,6 +2,10 @@
 
 session_start();
 
+if(!isset($_SESSION['logged'])) {
+    $_SESSION['logged'] = false;
+}
+
 //initializing variables
 $firstname = "";
 $lastname = "";
@@ -55,7 +59,6 @@ if(isset($_POST['signUpButton'])) {
         $_SESSION['success'] = "You are logged in";
         //if succeed, move to welcome.php
         header('location: ../Welcome/welcome.php');
-        unset($_SESSION['logged']);
         $_SESSION['logged'] = true;
     }
 }
@@ -80,7 +83,6 @@ if(isset($_POST['signInButton'])) {
             $_SESSION['firstname'] = $row['firstname'];
             $_SESSION['success'] = "Successfully logged in";
             header('location: ../Welcome/welcome.php');
-            unset($_SESSION['logged']);
             $_SESSION['logged'] = true;
         } else {
             //else incorrect email and password combination
@@ -92,5 +94,6 @@ if(isset($_POST['signInButton'])) {
 //if signout is clicked, set $_SESSION['logged'] as false.
 if(isset($_POST['signOut'])) {
     header('location: ../SignIn/signin.php');
+    session_destroy();
     $_SESSION['logged'] = false;
 }
