@@ -25,9 +25,9 @@
                     <a class="welcomeBack">Welcome Back! <br> <?php echo $_SESSION['firstname'];?> <i class="fa fa-angle-down" onclick="drop()" style="font-size:24px"></i></a>
                     <div id="myDropdown" class="dropdown-content">
                         <p class="myAccount">My Account</p>
-                        <a name="personalInfo">Personal Information</a>
-                        <a name="orderHistory">Order History</a>
-                        <a name="changePwd">Change my password</a>
+                        <a href="../Personalinfo/personalinfo.php" name="personalInfo">Personal Information</a>
+                        <a href="../OrderHistory/orderhistory.php" name="orderHistory">Order History</a>
+                        <a href="../Changepw/changepw.php" name="changePwd">Change my password</a>
                         <button name="signOut" id="signOut">Sign Out</button>
                     </div>
 

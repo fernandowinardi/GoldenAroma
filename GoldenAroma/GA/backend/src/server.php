@@ -23,7 +23,7 @@ $errors = array();
  * email varchar(30),
  * password varchar(255));
  */
-$database = mysqli_connect('localhost', 'root', 'reynaldo123', 'goldenaroma');
+$database = mysqli_connect('localhost', 'root', 'Binary10mil', 'goldenaroma');
 
 //sign up - if signUpButton id from signup.php is clicked
 if(isset($_POST['signUpButton'])) {

@@ -1,7 +1,7 @@
 <?php include('../../../backend/src/server.php')?>
 <!DOCTYPE html>
 <script src="https://use.fontawesome.com/9aaf325104.js"></script>
-<form action="" name="signIn" method="post">
+<form action="" name="welcome" method="post">
 	<head>
 		<title>Golden Aroma</title>
 		<link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
 			<nav>
 				<ul class="navbar">
 					<li><a href="../Welcome/welcome.php" class="option">Welcome</a></li>
-					<li><a href="shoptea.php" class="active">Shop Tea</a></li>
+					<li><a href="../ShopTea/shoptea.php" class="option">Shop Tea</a></li>
 					<li><a href="../ShopCoffee/shopcoffee.php" class="option">Shop Coffee</a></li>
 					<li><a href="../About/about.php" class="option">About</a></li>
 					<li><a href="../ContactUs/contactus.php" class="option">Contact us</a></li>
@@ -36,6 +36,21 @@
 			<a href="#"><img class="basket" src="../../Images/basket.svg" alt="(basket logo)"></a>
 		</header>
 		<hr class="line1">
+
+        <div class="rectangle1">
+            <p class="personalinfo">Personal Information</p>
+            <input type="text" class="firstName" id="firstname" name="firstname" placeholder="First Name" style="text-indent: 30px">
+            <input type="text" class="lastName" id="lastname" name="secondname" placeholder="Last Name" style="text-indent: 30px">
+            <input type="text" class="email" id="email" name="email" placeholder="Email" style="text-indent: 30px">
+            <input type="text" class="phonenum" id="phonenum" name="phonenum" placeholder="Phone Number" style="text-indent: 30px">
+            <input type="text" class="country" id="country" name="country" placeholder="Country" style="text-indent: 30px">
+            <input type="text" class="state" id="state" name="state" placeholder="State" style="text-indent: 30px">
+            <input type="text" class="city" id="city" name="city" placeholder="City" style="text-indent: 30px">
+            <input type="text" class="zipcode" id="zipcode" name="zipcode" placeholder="Zipcode" style="text-indent: 30px">
+            <input type="text" class="address1" id="address1" name="address1" placeholder="Address1" style="text-indent: 30px">
+            <input type="text" class="address2" id="address2" name="address2" placeholder="Address2" style="text-indent: 30px">
+            <button class="savebutton" name="savebutton" id="savebutton">Save Changes</button>
+        </div>
 	</body>
 </form>
 </html>

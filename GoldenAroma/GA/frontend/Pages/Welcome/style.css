@@ -1,3 +1,8 @@
+form {
+    height: 1600px;
+    overflow-y: auto;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -153,3 +158,523 @@
     height: 30px;
     width: 150px;
 }
+
+.coffeetext1 {
+    position: absolute;
+    width: 556px;
+    height: 127px;
+    left: 120px;
+    top: 240px;
+
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.coffeetext2 {
+    position: absolute;
+    width: 556px;
+    height: 127px;
+    left: 120px;
+    top: 310px;
+
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.coffeetext3 {
+    position: absolute;
+    width: 556px;
+    height: 127px;
+    left: 120px;
+    top: 330px;
+
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.shopcoffeebtn {
+    position: absolute;
+    width: 261px;
+    height: 57px;
+    left: 250px;
+    top: 420px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.coffeepicture {
+    position: absolute;
+    width: 420px;
+    height: 300px;
+    left: 830px;
+    top: 200px;
+}
+
+.line2 {
+    position: absolute;
+    width: 90%;
+    left: 65px;
+    top: 570px;
+
+    border: 1px solid #000000;
+}
+
+.teapicture {
+    position: absolute;
+    width: 420px;
+    height: 300px;
+    left: 200px;
+    top: 640px;
+}
+
+.teatext1 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 770px;
+    top: 680px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.teatext2 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 770px;
+    top: 750px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.teatext3 {
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left: 770px;
+    top: 770px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.shopteabtn {
+    position: absolute;
+    width: 261px;
+    height: 57px;
+    left: 895px;
+    top: 860px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* rectangle1 stuff css (start) */
+.rectangle1{
+    position: absolute;
+    width: 375px;
+    height: 365px;
+    left: 70px;
+    top: 1010px;
+
+    background: #F8FED2;
+}
+
+.rec1photo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 85px;
+    top: 10px;
+}
+
+.rec1text {
+    position: absolute;
+    width: 264px;
+    height: 85px;
+    left: 55px;
+    top: 220px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rec1btn {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 85px;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+/* rectangle1 stuff css (end) */
+
+/* rectangle2 stuff css (start) */
+.rectangle2{
+    position: absolute;
+    width: 375px;
+    height: 365px;
+    left: 600px;
+    top: 1010px;
+
+    background: #F8FED2;
+}
+
+.rec2photo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 85px;
+    top: 10px;
+}
+
+.rec2text {
+    position: absolute;
+    width: 291px;
+    height: 29px;
+    left: 40px;
+    top: 250px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rec2btn {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 80px;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+/* rectangle2 stuff css (end) */
+
+/* rectangle3 stuff css (start) */
+.rectangle3{
+    position: absolute;
+    width: 375px;
+    height: 365px;
+    left: 1130px;
+    top: 1010px;
+
+    background: #F8FED2;
+}
+
+.rec3photo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 85px;
+    top: 10px;
+}
+
+.rec3text {
+    position: absolute;
+    width: 291px;
+    height: 29px;
+    left: 40px;
+    top: 250px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rec3btn {
+    position: absolute;
+    width: 205px;
+    height: 40px;
+    left: 80px;
+    top: 300px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+/* rectangle3 stuff css (end) */
+
+/* bottom tiktiktoktok */
+.paymentopt {
+    position: absolute;
+    width: 160px;
+    height: 27px;
+    left: 60px;
+    top: 1420px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.visaimg {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 220px;
+    top: 1410px;
+}
+
+.mastercardimg {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 320px;
+    top: 1410px;
+}
+
+.paypalimg {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 420px;
+    top: 1410px;
+}
+
+.connectwithus {
+    position: absolute;
+    width: 160px;
+    height: 27px;
+    left: 65px;
+    top: 1480px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.facebookimg {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 230px;
+    top: 1470px;
+}
+
+.igimg {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    left: 330px;
+    top: 1470px;
+}
+
+.subtous {
+    position: absolute;
+    width: 160px;
+    height: 27px;
+    left: 620px;
+    top: 1430px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.subinput {
+    position: absolute;
+    width: 180px;
+    height: 34px;
+    left: 770px;
+    top: 1430px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.subbtn {
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    left: 845px;
+    top: 1480px;
+
+    background: #FFFFFF;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 65px;
+    height: 19px;
+    left: 1200px;
+    top: 1480px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.copyrightc {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1275px;
+    top: 1480px;
+}
+
+.minilogo {
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    left: 1300px;
+    top: 1473px;
+}
+
+.ARStext {
+    position: absolute;
+    width: 130px;
+    height: 19px;
+    left: 1433px;
+    top: 1480px;
+
+    font-family: Noto Sans Gujarati UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+
+}
+

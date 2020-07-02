@@ -1,7 +1,7 @@
 <?php include('../../../backend/src/server.php')?>
 <!DOCTYPE html>
 <script src="https://use.fontawesome.com/9aaf325104.js"></script>
-<form action="" name="signIn" method="post">
+<form action="" name="welcome" method="post">
 	<head>
 		<title>Golden Aroma</title>
 		<link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
 			<nav>
 				<ul class="navbar">
 					<li><a href="../Welcome/welcome.php" class="option">Welcome</a></li>
-					<li><a href="shoptea.php" class="active">Shop Tea</a></li>
+					<li><a href="../ShopTea/shoptea.php" class="option">Shop Tea</a></li>
 					<li><a href="../ShopCoffee/shopcoffee.php" class="option">Shop Coffee</a></li>
 					<li><a href="../About/about.php" class="option">About</a></li>
 					<li><a href="../ContactUs/contactus.php" class="option">Contact us</a></li>

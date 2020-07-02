@@ -25,9 +25,9 @@
                     <a class="welcomeBack">Welcome Back! <br> <?php echo $_SESSION['firstname'];?> <i class="fa fa-angle-down" onclick="drop()" style="font-size:24px"></i></a>
                     <div id="myDropdown" class="dropdown-content">
                         <p class="myAccount">My Account</p>
-                        <a name="personalInfo">Personal Information</a>
-                        <a name="orderHistory">Order History</a>
-                        <a name="changePwd">Change my password</a>
+                        <a href="../Personalinfo/personalinfo.php" name="personalInfo">Personal Information</a>
+                        <a href="../OrderHistory/orderhistory.php" name="orderHistory">Order History</a>
+                        <a href="../Changepw/changepw.php" name="changePwd">Change my password</a>
                         <button name="signOut" id="signOut">Sign Out</button>
                     </div>
 
@@ -36,6 +36,55 @@
 			<a href="#"><img class="basket" src="../../Images/basket.svg" alt="(basket logo)"></a>
 		</header>
 		<hr class="line1">
+
+        <div class="coffeeadvertisement">
+            <p class="coffeetext1">Coffee fresh from the fields</p>
+            <p class="coffeetext2">Discover our wide range of coffees freshly picked</p>
+            <p class="coffeetext3">and chosen by our dedicated farmer.</p>
+            <button class="shopcoffeebtn">Discover Now</button>
+            <a href="#"><img class="coffeepicture" src="../../Images/coffeeworker.jpg" alt="(Coffeeworker)"></a>
+        </div>
+
+        <hr class="line2">
+        <div class="teaadvertisement">
+            <a href="#"><img class="teapicture" src="../../Images/teaworker.jpg" alt="(Teaworker)"></a>
+            <p class="teatext1">Tea for life</p>
+            <p class="teatext2">Discover our wide range of teas hand picked</p>
+            <p class="teatext3">specially for our customers.</p>
+            <button class="shopteabtn">Discover Now</button>
+        </div>
+
+        <div class="rectangle1">
+            <a href="#"><img class="rec1photo" src="../../Images/logooriginal.png" alt="(ga logo ori)"></a>
+            <p class="rec1text">Learn more about how our brand was formed and a little bit about our history.</p>
+            <button class="rec1btn">About Us</button>
+        </div>
+        <div class="rectangle2">
+            <a href="#"><img class="rec2photo" src="../../Images/ctcus.jpg" alt="(contact us)"></a>
+            <p class="rec2text">Got any questions?</p>
+            <button class="rec2btn">Contact Us</button>
+        </div>
+        <div class="rectangle3">
+            <a href="#"><img class="rec3photo" src="../../Images/jointeam.jpg" alt="(Join team)"></a>
+            <p class="rec2text">Want to be a part of our awesome team?</p>
+            <button class="rec3btn">Browse career</button>
+        </div>
+        <div class="botnav">
+            <p class="paymentopt">Payment option: </p>
+            <a href="#"><img class="visaimg" src="../../Images/visa.png" alt="(visa)"></a>
+            <a href="#"><img class="mastercardimg" src="../../Images/mastercard.png" alt="(mastercard)"></a>
+            <a href="#"><img class="paypalimg" src="../../Images/paypal.png" alt="(paypal)"></a>
+            <p class="connectwithus">Connect With Us: </p>
+            <a href="#"><img class="facebookimg" src="../../Images/facebook.png" alt="(facebook)"></a>
+            <a href="#"><img class="igimg" src="../../Images/ig.png" alt="(instagram)"></a>
+            <p class="subtous">Subscribe to Us: </p>
+            <input type="text" class="subinput" placeholder="Enter your Email" style="text-indent: 30px">
+            <button class="subbtn">Subscribe</button>
+            <p class="copyright">Copyright</p>
+            <a href="#"><img class="copyrightc" src="../../Images/copyright.png" alt="(copyright)"></a>
+            <a href="#"><img class="minilogo" src="../../Images/logo.png" alt="(logo)"></a>
+            <p class="ARStext">All Rights Reserved</p>
+        </div>
 	</body>
 </form>
 </html>
