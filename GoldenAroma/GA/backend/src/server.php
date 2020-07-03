@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+use PHPMailer\PHPMailer\PHPMailer;
 
 if(!isset($_SESSION['logged'])) {
     $_SESSION['logged'] = false;
@@ -96,4 +97,58 @@ if(isset($_POST['signOut'])) {
     header('location: ../SignIn/signin.php');
     session_destroy();
     $_SESSION['logged'] = false;
+}
+
+//Contact Us page
+if(isset($_POST['sendButton'])) {
+    $senderName = $_POST['nameContact'];
+    $senderEmail = $_POST['emailContact'];
+    $subject = $_POST['subjectContact'];
+    $senderMessage = $_POST['messageContact'];
+    $recipient = 'goldenaroma@outlook.com';
+
+    $mailBody = "<h1>From: $senderEmail<br></h1><p>To whom it may concern, <br><br> $senderMessage <br><br> Kind regards,<br> $senderName</p>";
+
+    require_once('C:\Users\Fernando Winardi\PhpstormProjects\GoldenAroma\GoldenAroma\GA\backend\phpmailer\phpmailer\src\PHPMailer.php');
+    require_once('C:\Users\Fernando Winardi\PhpstormProjects\GoldenAroma\GoldenAroma\GA\backend\phpmailer\phpmailer\src\Exception.php');
+    require_once('C:\Users\Fernando Winardi\PhpstormProjects\GoldenAroma\GoldenAroma\GA\backend\phpmailer\phpmailer\src\SMTP.php');
+    require('C:\Users\Fernando Winardi\PhpstormProjects\GoldenAroma\GoldenAroma\GA\backend\autoload.php');
+
+    //PHPMailer Object
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host = "smtp.gmail.com";
+    $mail->Port = 587;
+    $mail->SMTPAuth = true;
+    $mail->Username = 'goldenaroma2@gmail.com';
+    $mail->Password = 'Gund4la.';
+    $mail->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+        )
+    );
+//From email address and name
+    $mail->setFrom($senderEmail, $senderName);
+
+//To address and name
+    $mail->addAddress("goldenaroma@outlook.com");
+
+//Send HTML or Plain Text email
+    $mail->isHTML(true);
+
+    $mail->Subject = $subject;
+    $mail->Body = $mailBody;
+    $mail->AltBody = "This is the plain text version of the email content";
+
+    if(!$mail->send())
+    {
+        echo "There is an error when sending request";
+    }
+    else
+    {
+        echo "Successfully sent mail";
+    }
+
 }
