@@ -1,3 +1,8 @@
+form {
+    height: 720px;
+    overflow-y: auto;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -152,4 +157,235 @@
 .basket {
     height: 30px;
     width: 150px;
+}
+
+.getInTouch {
+
+    position: absolute;
+    width: 222px;
+    height: 60px;
+    left: 204px;
+    top: 158px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 768px;
+    height: 411px;
+    left: 180px;
+    top: 229px;
+
+    background: #F8FED2;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 401px;
+    height: 412px;
+    left: 947px;
+    top: 229px;
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.nameLabel {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 15px;
+    top: 25px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.contactName {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 15px;
+    top: 70px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+    background-color: #F8FED2;
+}
+
+.emailLabel {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 345px;
+    top: 25px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactEmail {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 345px;
+    top: 70px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+    background-color: #F8FED2;
+}
+
+.subjectLabel {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 15px;
+    top: 139px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactSubject {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 15px;
+    top: 177px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+    background-color: #F8FED2;
+}
+
+.messageLabel {
+    position: absolute;
+    width: 116px;
+    height: 33px;
+    left: 15px;
+    top: 243px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactMessage {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 15px;
+    top: 280px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+    background-color: #F8FED2;
+}
+
+.fa-paper-plane {
+    position: absolute;
+    left: 580px;
+    top: 310px;
+    background-color: #F8FED2;
+    border: none;
+}
+
+.fa-paper-plane:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+.contactInfo {
+    position: absolute;
+    width: 273px;
+    height: 33px;
+    left: 15px;
+    top: 25px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.fa-map-marker {
+    position: absolute;
+    width: 500px;
+    height: 44px;
+    left: 15px;
+    top: 115px;
+    font-size: 24px;
+}
+
+.fa-phone {
+    position: absolute;
+    width: 500px;
+    height: 44px;
+    left: 15px;
+    top: 212px;
+    font-size: 24px;
+}
+
+.fa-instagram {
+    position: absolute;
+    width: 500px;
+    height: 44px;
+    left: 15px;
+    top: 309px;
+    font-size: 24px;
 }

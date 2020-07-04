@@ -36,6 +36,26 @@
 			<a href="#"><img class="basket" src="../../Images/basket.svg" alt="(basket logo)"></a>
 		</header>
 		<hr class="line1">
+        <p class="getInTouch">Get In Touch</p>
+
+    <div class="rectangle1">
+        <a class="nameLabel">Name:</a>
+        <input type="text" class="contactName" name="nameContact" placeholder="Your Name" style="text-indent: 10px">
+        <a class="emailLabel">Email:</a>
+        <input type="text" class="contactEmail" name="emailContact" placeholder="Your Email" style="text-indent: 10px">
+        <a class="subjectLabel">Subject:</a>
+        <input type="text" class="contactSubject" name="subjectContact" placeholder="Your Enquiry" style="text-indent: 10px">
+        <a class="messageLabel">Message:</a>
+        <textarea class="contactMessage" name="messageContact" placeholder="Your Message" style="text-indent: 10px"></textarea>
+        <button class="fa fa-paper-plane fa-3x" name="sendButton" aria-hidden="true"></button>
+    </div>
+
+    <div class="rectangle2">
+        <a class="contactInfo">Contact Information</a>
+        <i class="fa fa-map-marker fa-2x" aria-hidden="true">: Kompleks Malibu Blok A23</i>
+        <i class="fa fa-phone fa-2x" aria-hidden="true">: 08116152263</i>
+        <i class="fa fa-instagram fa-2x" aria-hidden="true">: @Oceanryan</i>
+    </div>
 	</body>
 </form>
 </html>
