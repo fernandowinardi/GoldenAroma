@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<a href="#"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
+			<a href="../Welcome/welcome.php"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
 			<nav>
 				<ul class="navbar">
 					<li><a href="../Welcome/welcome.php" class="option">Welcome</a></li>
@@ -36,6 +36,27 @@
 			<a href="#"><img class="basket" src="../../Images/basket.svg" alt="(basket logo)"></a>
 		</header>
 		<hr class="line1">
+        <div class="rectangleHeader">
+            <p class="para1">About Golden Aroma</p>
+            <a class="para2">Quality Tea and Coffee</a>
+        </div>
+        <a><img class="logoPhoto" src="../../Images/logooriginal.png" alt="(ga logo ori)"></a>
+        <div class="aimDiv">
+            <p class="aimPara">What is our aim?</p>
+            <hr class="line3">
+            <p class="aimPara2">Having experienced in our fields for over 5 years, our aim is to
+            provide the best quality of both service and products to our customers.</p>
+        </div>
+        <div class="ourProducts">
+            <p class="ourProductLabel">Our Products</p>
+            <a><img class="coffeeTea" src="../../Images/coffeeandtea.jpeg" alt="(coffee tea)"></a>
+            <p class="coffeeLabel">Coffee</p>
+            <p class="aboutCoffee">Our Coffee originated from Indonesia where it is a country
+            rich in coffee.</p>
+            <p class="teaLabel">Tea</p>
+            <p class="aboutTea">Our tea is originated from different regions across asia and
+             it is hand-picked to ensure the quality of the tea leaves.</p>
+        </div>
 	</body>
 </form>
 </html>

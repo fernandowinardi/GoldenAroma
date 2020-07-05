@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<a href="#"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
+			<a href="../Welcome/welcome.php"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
 			<nav>
 				<ul class="navbar">
 					<li><a href="../Welcome/welcome.php" class="option">Welcome</a></li>

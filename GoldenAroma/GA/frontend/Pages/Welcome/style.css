@@ -16,6 +16,9 @@ form {
     padding: 30px 10%;
   }
 
+  button:hover {
+      cursor: pointer;
+  }
 .navbar a, 
 .login,
 .basket,
@@ -554,7 +557,7 @@ form {
     color: #000000;
 }
 
-.facebookimg {
+.fa-facebook-square {
     position: absolute;
     width: 70px;
     height: 50px;
@@ -562,12 +565,17 @@ form {
     top: 1470px;
 }
 
-.igimg {
+.fa-instagram {
     position: absolute;
     width: 70px;
     height: 50px;
-    left: 330px;
+    left: 300px;
     top: 1470px;
+}
+
+i:hover {
+    color: dodgerblue;
+    cursor: pointer;
 }
 
 .subtous {

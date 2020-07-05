@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<header>
-			<a href="#"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
+			<a href="welcome.php"><img class="logo" src="../../Images/logo.png" alt="(GA logo)"></a>
 			<nav>
 				<ul class="navbar">
 					<li><a href="welcome.php" class="active">Welcome</a></li>
@@ -41,7 +41,7 @@
             <p class="coffeetext1">Coffee fresh from the fields</p>
             <p class="coffeetext2">Discover our wide range of coffees freshly picked</p>
             <p class="coffeetext3">and chosen by our dedicated farmer.</p>
-            <button class="shopcoffeebtn">Discover Now</button>
+            <button class="shopcoffeebtn" name="shopCoffeeButton">Discover Now</button>
             <a href="#"><img class="coffeepicture" src="../../Images/coffeeworker.jpg" alt="(Coffeeworker)"></a>
         </div>
 
@@ -51,48 +51,45 @@
             <p class="teatext1">Tea for life</p>
             <p class="teatext2">Discover our wide range of teas hand picked</p>
             <p class="teatext3">specially for our customers.</p>
-            <button class="shopteabtn">Discover Now</button>
+            <button class="shopteabtn" name="shopTeaButton">Discover Now</button>
         </div>
 
         <div class="rectangle1">
-            <a href="#"><img class="rec1photo" src="../../Images/logooriginal.png" alt="(ga logo ori)"></a>
+            <a><img class="rec1photo" src="../../Images/logooriginal.png" alt="(ga logo ori)"></a>
             <p class="rec1text">Learn more about how our brand was formed and a little bit about our history.</p>
-            <button class="rec1btn">About Us</button>
+            <button class="rec1btn" name="rect1btn">About Us</button>
         </div>
         <div class="rectangle2">
-            <a href="#"><img class="rec2photo" src="../../Images/ctcus.jpg" alt="(contact us)"></a>
+            <a><img class="rec2photo" src="../../Images/ctcus.jpg" alt="(contact us)"></a>
             <p class="rec2text">Got any questions?</p>
-            <button class="rec2btn">Contact Us</button>
+            <button class="rec2btn" name="rect2btn">Contact Us</button>
         </div>
         <div class="rectangle3">
-            <a href="#"><img class="rec3photo" src="../../Images/jointeam.jpg" alt="(Join team)"></a>
+            <a><img class="rec3photo" src="../../Images/jointeam.jpg" alt="(Join team)"></a>
             <p class="rec2text">Want to be a part of our awesome team?</p>
-            <button class="rec3btn">Browse career</button>
+            <button class="rec3btn" name="rect3btn">Browse career</button>
         </div>
         <div class="botnav">
             <p class="paymentopt">Payment option: </p>
-            <a href="#"><img class="visaimg" src="../../Images/visa.png" alt="(visa)"></a>
-            <a href="#"><img class="mastercardimg" src="../../Images/mastercard.png" alt="(mastercard)"></a>
-            <a href="#"><img class="paypalimg" src="../../Images/paypal.png" alt="(paypal)"></a>
+            <a><img class="visaimg" src="../../Images/visa.png" alt="(visa)"></a>
+            <a><img class="mastercardimg" src="../../Images/mastercard.png" alt="(mastercard)"></a>
+            <a><img class="paypalimg" src="../../Images/paypal.png" alt="(paypal)"></a>
             <p class="connectwithus">Connect With Us: </p>
-            <a href="#"><img class="facebookimg" src="../../Images/facebook.png" alt="(facebook)"></a>
-            <a href="#"><img class="igimg" src="../../Images/ig.png" alt="(instagram)"></a>
+            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
             <p class="subtous">Subscribe to Us: </p>
             <input type="text" class="subinput" placeholder="Enter your Email" style="text-indent: 30px">
-            <button class="subbtn">Subscribe</button>
+            <button class="subbtn" style="text-indent: 18px">Subscribe</button>
             <p class="copyright">Copyright</p>
-            <a href="#"><img class="copyrightc" src="../../Images/copyright.png" alt="(copyright)"></a>
-            <a href="#"><img class="minilogo" src="../../Images/logo.png" alt="(logo)"></a>
+            <a><img class="copyrightc" src="../../Images/copyright.png" alt="(copyright)"></a>
+            <a><img class="minilogo" src="../../Images/logo.png" alt="(logo)"></a>
             <p class="ARStext">All Rights Reserved</p>
         </div>
 	</body>
 </form>
 </html>
 
-<script>
-    document.getElementById("signUp").onclick = function () {
-        location.href = "../SignUp/signup.php"
-    }
+<script type = text/javascript>
 
     function drop() {
         document.getElementById("myDropdown").classList.toggle("show");
@@ -110,4 +107,5 @@
             }
         }
     }
+
 </script>

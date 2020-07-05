@@ -3,6 +3,10 @@
 session_start();
 use PHPMailer\PHPMailer\PHPMailer;
 
+/**
+ * Each login starts a session and the session is destroyed when the user signs out
+ */
+//if no session, initialize $_SESSION['logged'] variable as false
 if(!isset($_SESSION['logged'])) {
     $_SESSION['logged'] = false;
 }
@@ -28,7 +32,7 @@ $errors = array();
  * email varchar(30),
  * password varchar(255));
  */
-$database = mysqli_connect('localhost', 'root', 'Binary10mil', 'goldenaroma');
+$database = mysqli_connect('localhost', 'root', 'reynaldo123', 'goldenaroma');
 
 //sign up - if signUpButton id from signup.php is clicked
 if(isset($_POST['signUpButton'])) {
@@ -151,4 +155,21 @@ if(isset($_POST['sendButton'])) {
         echo "Successfully sent mail";
     }
 
+}
+
+//Welcome page buttons redirect pages
+if(isset($_POST['shopCoffeeButton'])) {
+    header('location: ../ShopCoffee/shopcoffee.php');
+}
+
+if(isset($_POST['shopTeaButton'])) {
+    header('location: ../ShopTea/shoptea.php');
+}
+
+if(isset($_POST['rect1btn'])) {
+    header('location: ../About/about.php');
+}
+
+if(isset($_POST['rect2btn'])) {
+    header('location: ../ContactUs/contactus.php');
 }
