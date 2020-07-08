@@ -36,6 +36,31 @@
 			<a href="#"><img class="basket" src="../../Images/basket.svg" alt="(basket logo)"></a>
 		</header>
 		<hr class="line1">
+        <?php
+        $coffeeQuery = "SELECT * FROM products WHERE category='coffee'";
+        $result = mysqli_query($database, $coffeeQuery);
+        while ($row=mysqli_fetch_assoc($result)){
+            $product_array[] = $row;
+        }
+        if(!empty($product_array)) {
+            foreach ($product_array as $key => $value){
+                ?>
+                <div class="productCoffee">
+                    <form method="post" action="shopcoffee.php">
+                        <div class="coffeeName"><?php echo  $product_array[$key]["name"];?><span><?php echo "  " .$product_array[$key]["rating"];?><i class="fa fa-star" aria-hidden="true"></i>(0)</span></div>
+                        <div class="coffeeDesc"><?php echo $product_array[$key]["description"];?></div>
+                        <div class="coffeeImage"><img src="<?php echo $product_array[$key]["image"];?>"></div>
+                        <div class="coffeeTitleFooter">
+                            <div class="coffeePrice"><?php echo 'Price: $' .$product_array[$key]["price"]. '/100g'?></div>
+                            <div class="cartAction"><input type="text" class="coffeeQuantity" name="coffeeQty" value="1" size="2"/>
+                                <input type="submit" value="Add to Cart" class="addCartButton"/></div>
+                        </div>
+                    </form>
+                </div>
+                <?php
+            }
+        }
+        ?>
 	</body>
 </form>
 </html>
